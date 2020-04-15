@@ -20,7 +20,7 @@ public class EmployeeDao {
 
         int result = 0;
 
-        /* Class.forName("com.mysql.jdbc.Driver"); deprecated! 
+        /* Class.forName("com.mysql.jdbc.Driver"); deprecated!  
            the new driver is automatically added com.mysql.cj.jdbc.Driver */  
         
         try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useSSL=false", "root", "");  
